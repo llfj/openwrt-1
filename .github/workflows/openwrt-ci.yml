@@ -68,7 +68,8 @@ jobs:
           rm -f ./.config*
           touch ./.config
 ﻿           #1
-            rm -rf ./openwrt
+           #rm -rf ./openwrt
+           rm -rf openwrt
             git clone https://github.com/llfj/openwrt
             rm -f ./.config*
             \cp -rf ./openwrt/cgnewwifi3.txt ./.config
